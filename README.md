@@ -89,6 +89,16 @@ sls remove
 # ローカルで作成方法
 
 ```bash
-
+# ライブラリーをインストール
+ npm install --save-dev serverless-offline
 ```
-# serverless-fremework-v4-explain
+
+```bash
+# ローカルでサーバ起動
+ sls offline start
+```
+
+```.gitignore
+# node_modulesは、サイズが大きいためgit管理から外す
+node_modules
+```

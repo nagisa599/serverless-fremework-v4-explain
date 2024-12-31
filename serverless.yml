@@ -19,3 +19,6 @@ functions:
       - httpApi:
           path: /
           method: get
+# 追加
+plugins:
+  - serverless-offline
