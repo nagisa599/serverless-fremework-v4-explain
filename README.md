@@ -90,12 +90,12 @@ sls remove
 
 ```bash
 # ライブラリーをインストール
- npm install --save-dev serverless-offline
+npm install --save-dev serverless-offline
 ```
 
 ```bash
 # ローカルでサーバ起動
- sls offline start
+sls offline start
 ```
 
 ```.gitignore
